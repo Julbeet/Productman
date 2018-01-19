@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+.wrapper {
+	background-color: #eeeeee;	
+}
+
+.ba-container {
+	width: 1200px;
+	font: 400 18px/1.2 'Raleway', sans-serif;
+	color:  #303030;
+	padding: 50px 0px 35px;
+}
+
+.header__logo {
+	font: 900 48px 'Roboto', sans-serif;
+	color:  #303030;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.header__nav {
+	width: calc(100% - 275px);
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.header__nav li {
+	display: inline-block;
+	padding: 0 25px;
+}
+
+.header__nav li:last-of-type {
+	padding-right: 0;
+}
+
+.header__nav li:not(:last-child) a:hover,
+.header__nav li:not(:last-child) a:active,
+.header__nav li:not(:last-child) a:focus {
+	border-bottom: 2px solid #e10011;
+}
+
+.header__nav li a{
+	color:  #303030;
+	text-decoration: none;
+}
+
+.header__nav img {
+	height:  14px;
+}
+
+.carousel {
+	margin: 90px 0;
+}
+
+.product__title {
+	font: 900 150px/1 'Raleway', sans-serif;
+	margin: 0;
+}
+
+.product__text {
+	font: 300 24px/1.5 'Roboto', sans-serif;
+	max-height: 108px;
+	overflow: hidden;
+}
+
+.product__link {
+	font: 700 24px/1.5 'Roboto', sans-serif;
+	color:  #e10011;
+	text-decoration: none;
+}
+
+.carousel__nav {
+	margin-top: 90px;
+}
+
+.carousel__nav li {
+	display: inline-block;
+	background-color:  #303030;
+	width: 11px;
+	height: 11px;
+}
+
+.carousel__nav li:first-of-type {
+	background-color:  #e10011;
+}
+
+.product-img img {
+	margin-left: 90px;
+}
+
+.ba-container--white {
+	background-color: #fff;
+}
+
+.featured__title {
+	font:  900 48px 'Raleway', sans-serif;
+	
+}
